@@ -13,7 +13,7 @@ public class AppEmpresaObjetos {
             empresa.contratarEmpleado(new empleado(nombre, cargo, Salario));//salario o Salario???
         }
         System.out.println("nEl nuemro total de empelados es "+ empresa.getTotalEmpleados());
-        System.out.println("nLos nombres y los salarios de los empleados son: "+ empresa.nombreSalario());
+        System.out.println("nLos nombres y los salarios de los empleados son: "+empresa.nombreSalario());
         empresa.nombreSalario();
         System.out.println("nTotal de dinero pagado a todos los empleados: "+empresa.getTotalSalarios());
     }
