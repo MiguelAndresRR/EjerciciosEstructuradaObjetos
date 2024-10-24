@@ -7,6 +7,5 @@ public class AppNotasObjetos {
            Estudiante est1 = new Estudiante("Santiago ibañez",Float.parseFloat("2.5"),Float.parseFloat("5.0"));
            est.calcularNotaFinal();
            est1.calcularNotaFinal();
-           System.out.println("El estudiante "+ est.nombre()+" obtuvo una nota final de "+est.notafinal()+ " por Consiguiente "+ est.obtenerMensaje());
     }
 }
